@@ -2,11 +2,11 @@ import React from "react";
 import { Avatar } from "@material-ui/core";
 import "../CSS/Story.css";
 
-function Story({ image, titleText, profilePic }) {
+function Story({ image, title, profilePic }) {
   return (
     <div style={{ backgroundImage: `url(${image})` }} className="story">
       <Avatar className="story__avatar" src={profilePic} />
-      <h4>{titleText}</h4>
+      <h4>{title}</h4>
     </div>
   );
 }
