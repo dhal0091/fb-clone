@@ -8,14 +8,13 @@ import PeopleIcon from "@material-ui/icons/People";
 import StorefrontIcon from "@material-ui/icons/Storefront";
 import VideoLibraryIcon from "@material-ui/icons/VideoLibrary";
 import ExpandMoreOutlinedIcon from "@material-ui/icons/ExpandMoreOutlined";
+import { useStateValue } from "../StateProvider";
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className="sidebar">
-      <SidebarRow
-        title="Harpreet"
-        src="https://images.unsplash.com/photo-1534353436294-0dbd4bdac845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=1400&q=60"
-      />
+      <SidebarRow title={user.displayName} src={user.photoURL} />
       <SidebarRow
         title="COVID-19 Information Center"
         Icon={LocalHospitalIcon}

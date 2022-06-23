@@ -25,6 +25,11 @@ function StoryReel() {
         profilePic="https://images.unsplash.com/photo-1630967931374-460c20de4e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fHRvd0paRnNrcEdnfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
         title="Harpreet Dhaliwal"
       />
+      <Story
+        image="https://images.unsplash.com/photo-1653233796431-07cf56e15b65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDMyfGFldTZyTC1qNmV3fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=1400&q=60"
+        profilePic="https://images.unsplash.com/photo-1630967931374-460c20de4e07?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU0fHRvd0paRnNrcEdnfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+        title="Harpreet Dhaliwal"
+      />
     </div>
   );
 }
